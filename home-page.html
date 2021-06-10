@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zunder Zifflin</title>
+    <link rel="stylesheet" href="style-homePage.css" />
+    <link rel="icon" href="zunder-zifflin-logo-mini.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="home-page.html">
+          <img src="assets/zunder-zifflin-logo-transparent.png" alt="zz-logo" />
+        </a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="home-page.html">Home</a></li>
+          <li>
+            <a href="company-profile.html">Profile</a>
+          </li>
+          <li>
+            <a href="product-page.html">Products</a>
+            <ul>
+              <li><a href="product-page.html">Printer</a></li>
+              <li><a href="product-page.html">Peripherals</a></li>
+              <li><a href="product-page.html">Stationary</a></li>
+              <li><a href="product-page.html">Projectors</a></li>
+            </ul>
+          </li>
+          <li><a href="registration-page.html">Registration</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="background">
+        <button id="btnSliderLeft">
+          <span class="fa fa-caret-left"></span>
+        </button>
+        <div class="slider">
+          <div class="images">
+            <img
+              src="https://picsum.photos/id/180/625/250"
+              alt="slider1"
+              class="slider-image"
+            />
+            <img
+              src="https://picsum.photos/id/1/625/250"
+              alt="slider2"
+              class="slider-image"
+            />
+            <img
+              src="https://picsum.photos/id/201/625/250"
+              alt="slider3"
+              class="slider-image"
+            />
+            <img
+              src="https://picsum.photos/id/366/625/250"
+              alt="slider4"
+              class="slider-image"
+            />
+          </div>
+        </div>
+        <button id="btnSliderRight">
+          <span class="fa fa-caret-right"></span>
+        </button>
+      </div>
+
+      <div class="products">
+        <div class="title">
+          <h2>Products</h2>
+        </div>
+        <div class="container">
+          <div class="box">
+            <img src="assets/printer.png" alt="printer" />
+            <p>Printers</p>
+          </div>
+          <div class="box">
+            <img src="assets/airpods.png" alt="peripherals" />
+            <p>Peripherals</p>
+          </div>
+          <div class="box">
+            <img src="assets/stationery.png" alt="stationery" />
+            <p>Stationary</p>
+          </div>
+          <div class="box">
+            <img src="assets/projector.png" alt="projector" />
+            <p>Projectors</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="advantages">
+        <div class="title">
+          <h2>Our Advantages</h2>
+        </div>
+        <div class="container">
+          <div class="box">
+            <img src="assets/advantages-1.png" alt="advantages-1" />
+            <div class="desc">
+              <h4>30% Reduction in Carbon Footprint</h4>
+              <hr />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt iusto magni, consequuntur dolorem quod sint repellendus
+                voluptatem perferendis!
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="assets/advantages-2.jpg" alt="advantages-2" />
+            <div class="desc">
+              <h4>Over Half a Million Hectares of Natural Forests Conserved</h4>
+              <hr />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                adipisci molestiae cum, praesentium aliquam cupiditate quas
+                perferendis assumenda, eveniet illo laudantium natus maxime
+                sequi alias? Rerum facere esse quod minus.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="assets/advantages-3.jpg" alt="advantages-3" />
+            <div class="desc">
+              <h4>Improving the Lives of Millions</h4>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                error corporis incidunt nulla totam id saepe nihil cumque autem
+                alias optio dolorum minima, neque, numquam nisi molestiae quam
+                ratione asperiores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© Copyright Zunder Zifflin 2021 All Rights Reserved. Privacy Policy</p>
+    </footer>
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="slider-animation.js"></script>
+  </body>
+</html>
